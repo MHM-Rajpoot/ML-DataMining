@@ -1,8 +1,58 @@
 # Mathematical Foundations for AI & Machine Learning
 
-> **Note**: This document contains mathematical equations formatted in LaTeX. For proper rendering, view in a Markdown renderer that supports LaTeX (e.g., GitHub with MathJax, Jupyter, or VS Code with a LaTeX extension). Ensure LaTeX rendering is enabled in your viewer.
-
 This document outlines the essential topics in **Probability**, **Statistics**, **Linear Algebra**, and **Calculus** that form the mathematical backbone of Artificial Intelligence (AI) and Machine Learning (ML). Each section provides key concepts, their mathematical formulations, significance, and examples of applications in AI/ML.
+
+## 📌 Statistics Topics for AI & ML
+
+1. **Descriptive Statistics**
+   - Measures: Mean, median, mode, variance, standard deviation.
+   - Meaning: Summarizes data characteristics.
+   - Example: Feature scaling (standardization) in ML preprocessing.
+
+2. **Probability Distributions**
+   - Types: Normal, Bernoulli, Binomial, Poisson, etc.
+   - PDF/PMF: Describes probability of random variables.
+   - Example: Gaussian distribution in Gaussian Mixture Models (GMMs).
+
+3. **Hypothesis Testing**
+   - Null vs. alternative hypothesis, p-value, significance level ($\alpha$).
+   - Tests: t-test, chi-square, ANOVA.
+   - Example: A/B testing for model performance comparison.
+
+4. **Confidence Intervals**
+   - Range: $\bar{x} \pm z \cdot \frac{\sigma}{\sqrt{n}}$ (normal distribution).
+   - Example: Estimating prediction uncertainty in regression.
+
+5. **Maximum Likelihood Estimation (MLE)**
+   - Maximizes: $L(\theta) = P(\text{data} | \theta)$.
+   - Example: Fitting logistic regression models.
+
+6. **Bayesian Statistics**
+   - Posterior = $\frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence}}$
+   - Example: Bayesian optimization for hyperparameter tuning.
+
+7. **Regression Analysis**
+   - Linear regression: $y = \beta_0 + \beta_1 x + \epsilon$
+   - Extensions: Ridge, Lasso, Polynomial regression.
+   - Example: Predicting house prices.
+
+8. **Correlation and Covariance**
+   - Covariance: $\text{Cov}(X,Y) = E[(X - \mu_X)(Y - \mu_Y)]$
+   - Correlation: $\rho = \frac{\text{Cov}(X,Y)}{\sigma_X \sigma_Y}$
+   - Example: Feature selection to avoid multicollinearity.
+
+9. **Dimensionality Reduction**
+   - Techniques: PCA, t-SNE, UMAP.
+   - Example: Visualizing high-dimensional data.
+
+10. **Resampling Methods**
+    - Bootstrap: Sampling with replacement.
+    - Cross-validation: K-fold CV for model evaluation.
+    - Example: K-fold CV for neural network performance.
+
+**Summary**: Statistics enables data analysis, uncertainty modeling, and model evaluation for ML tasks like classification, regression, and clustering.
+
+---
 
 ## 📌 Probability Topics for AI & ML
 
@@ -69,58 +119,6 @@ This document outlines the essential topics in **Probability**, **Statistics**, 
     - Examples: Naive Bayes, HMMs, Gaussian Mixture Models, Variational Autoencoders (VAEs), Bayesian Neural Networks.
 
 **Summary**: Probability underpins classification (Naive Bayes, logistic regression), generative models (VAEs, diffusion models), inference (MLE, MAP), and uncertainty quantification in AI.
-
----
-
-## 📌 Statistics Topics for AI & ML
-
-1. **Descriptive Statistics**
-   - Measures: Mean, median, mode, variance, standard deviation.
-   - Meaning: Summarizes data characteristics.
-   - Example: Feature scaling (standardization) in ML preprocessing.
-
-2. **Probability Distributions**
-   - Types: Normal, Bernoulli, Binomial, Poisson, etc.
-   - PDF/PMF: Describes probability of random variables.
-   - Example: Gaussian distribution in Gaussian Mixture Models (GMMs).
-
-3. **Hypothesis Testing**
-   - Null vs. alternative hypothesis, p-value, significance level ($\alpha$).
-   - Tests: t-test, chi-square, ANOVA.
-   - Example: A/B testing for model performance comparison.
-
-4. **Confidence Intervals**
-   - Range: $\bar{x} \pm z \cdot \frac{\sigma}{\sqrt{n}}$ (normal distribution).
-   - Example: Estimating prediction uncertainty in regression.
-
-5. **Maximum Likelihood Estimation (MLE)**
-   - Maximizes: $L(\theta) = P(\text{data} | \theta)$.
-   - Example: Fitting logistic regression models.
-
-6. **Bayesian Statistics**
-   - Posterior = $\frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence}}$
-   - Example: Bayesian optimization for hyperparameter tuning.
-
-7. **Regression Analysis**
-   - Linear regression: $y = \beta_0 + \beta_1 x + \epsilon$
-   - Extensions: Ridge, Lasso, Polynomial regression.
-   - Example: Predicting house prices.
-
-8. **Correlation and Covariance**
-   - Covariance: $\text{Cov}(X,Y) = E[(X - \mu_X)(Y - \mu_Y)]$
-   - Correlation: $\rho = \frac{\text{Cov}(X,Y)}{\sigma_X \sigma_Y}$
-   - Example: Feature selection to avoid multicollinearity.
-
-9. **Dimensionality Reduction**
-   - Techniques: PCA, t-SNE, UMAP.
-   - Example: Visualizing high-dimensional data.
-
-10. **Resampling Methods**
-    - Bootstrap: Sampling with replacement.
-    - Cross-validation: K-fold CV for model evaluation.
-    - Example: K-fold CV for neural network performance.
-
-**Summary**: Statistics enables data analysis, uncertainty modeling, and model evaluation for ML tasks like classification, regression, and clustering.
 
 ---
 
