@@ -1,3 +1,7 @@
+## Algorithms
+
+![](/BASIC/Alogo.jifi)
+
 ## Reference Materials
 
 * [Machine Learning](/Books/Machine%20Learning.pdf)
