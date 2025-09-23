@@ -1,6 +1,6 @@
 ## Algorithms
 
-![](/BASIC/Alogo.jifi)
+![](/BASIC/Algo.jfif)
 
 ## Reference Materials
 
