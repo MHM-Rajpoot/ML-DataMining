@@ -1,5 +1,3 @@
-![XOR Training GIF](BASIC/xor_full_combined.gif)
-
 ## Algorithms
 
 This section provides an overview of essential Machine Learning algorithms that every data scientist should know. These algorithms are broadly categorized into **Supervised**, **Unsupervised**, **Semi-Supervised**, **Reinforcement Learning**, and **Neural Networks**.
@@ -72,6 +70,8 @@ Reinforcement learning trains agents through **trial and error** by interacting 
 - Given the Model – Uses a pre-defined environment model for decision-making.  
 
 ---
+
+![XOR Training GIF](BASIC/xor_full_combined.gif)
 
 ### 🔹 Neural Networks (NN)
 
